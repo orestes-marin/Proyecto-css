@@ -1,0 +1,187 @@
+
+
+/* Tipografía y colores */
+body {
+    font-family: 'Arial', sans-serif; /* Define la fuente del texto como Arial y utiliza una fuente sans-serif alternativa si Arial no está disponible. */
+    line-height: 1.6;                  /* Establece la altura de línea en 1.6 para mejorar la legibilidad del texto. */
+    color: #333;                       /* Define el color del texto como un gris oscuro (#333). */
+    background-color: #f4f4f4;        /* Establece el color de fondo del cuerpo de la página a un gris muy claro (#f4f4f4). */
+    margin: 0;                        /* Elimina el margen por defecto del cuerpo de la página. */
+    padding: 0;                       /* Elimina el relleno por defecto del cuerpo de la página. */
+}
+
+p {
+    color: purple; 
+}
+
+p {
+    color: orange; 
+}
+
+p {
+    color: black; 
+}
+
+
+/* Encabezado */
+header {
+    background-color: #28a745;        /* Establece el color de fondo del encabezado a un verde (#28a745). */
+    color: #fff;                      /* Define el color del texto del encabezado como blanco. */
+    padding: 20px;                    /* Agrega un relleno de 20 píxeles en todos los lados del encabezado. */
+    text-align: center;               /* Centra el texto dentro del encabezado. */
+}
+
+header h1 {
+    margin: 0;                        /* Elimina el margen alrededor del encabezado de primer nivel (h1) dentro del encabezado. */
+}
+
+header p {
+    font-size: 1.2rem;                /* Define el tamaño de fuente del párrafo dentro del encabezado en 1.2 rem. */
+    margin: 10px 0 0;                 /* Agrega un margen superior de 10 píxeles al párrafo y elimina el margen inferior. */
+}
+
+.contenedor-principal > .hijo-1 > p {
+    color: blue;
+}
+
+.contenedor-principal .hijo-1 h1 + p {
+    color: pink;
+}
+
+.hijo-1 h1 ~ p {
+    color: red;
+}
+
+
+/* Secciones del contenido principal */
+main {
+    padding: 20px;                    /* Agrega un relleno de 20 píxeles en todos los lados del área principal. */
+}
+
+section {
+    margin-bottom: 20px;              /* Agrega un margen inferior de 20 píxeles a cada sección para separar las secciones. */
+}
+
+h2 {
+    color: #28a745;                   /* Define el color del texto de los encabezados de segundo nivel (h2) como verde (#28a745). */
+    border-bottom: 2px solid #28a745; /* Agrega una línea de borde inferior de 2 píxeles de grosor y color verde (#28a745) debajo del encabezado (h2). */
+    padding-bottom: 5px;             /* Agrega un relleno inferior de 5 píxeles al encabezado (h2) para separar el texto del borde. */
+    margin-bottom: 10px;              /* Agrega un margen inferior de 10 píxeles al encabezado (h2) para separarlo del contenido siguiente. */
+}
+
+.clase-personalisada {
+    color: #007bff;                   /* Define el color del texto del encabezado h3 como azul (#007bff) */
+    border-bottom: 2px solid #007bff; /* Agrega una línea de borde inferior de 2 píxeles de grosor y color azul (#007bff) debajo del encabezado h3 */
+    padding-bottom: 5px;             /* Agrega un relleno inferior de 5 píxeles al encabezado h3 para separar el texto del borde */
+    margin-bottom: 10px;              /* Agrega un margen inferior de 10 píxeles al encabezado h3 para separarlo del contenido siguiente */
+}
+
+/* Estilos para las listas */
+ul, ol {
+    padding-left: 20px;               /* Agrega un relleno izquierdo de 20 píxeles a listas no ordenadas (ul) y ordenadas (ol) para alinear el texto. */
+}
+
+ul li, ol li {
+    margin-bottom: 10px;              /* Agrega un margen inferior de 10 píxeles a cada elemento de lista para separarlos. */
+}
+
+dl dt {
+    color: darkblue; 
+}
+
+dl dd {
+    color: darkred; 
+}
+
+#turquesa {
+    color: orange; 
+}
+
+#turquesa {
+    color: rgb(64, 224, 208) !important;
+}
+
+/* Diseño de la tabla */
+table {
+    width: 100%;                      /* Establece el ancho de la tabla al 100% del contenedor. */
+    border-collapse: collapse;       /* Colapsa los bordes de la tabla para que no haya espacios entre las celdas. */
+    margin-top: 20px;                 /* Agrega un margen superior de 20 píxeles a la tabla. */
+}
+
+table caption {
+    font-weight: bold;                /* Define el texto del título de la tabla (caption) como negrita. */
+    margin-bottom: 10px;              /* Agrega un margen inferior de 10 píxeles al título de la tabla. */
+}
+
+table, th, td {
+    border: 1px solid #ddd;           /* Define un borde de 1 píxel, sólido y de color gris claro (#ddd) para la tabla, los encabezados (th) y las celdas (td). */
+    padding: 10px;                    /* Agrega un relleno de 10 píxeles en todos los lados de las celdas. */
+    text-align: left;                 /* Alinea el texto en la parte izquierda dentro de las celdas. */
+}
+
+thead {
+    background-color: #28a745;        /* Establece el color de fondo del encabezado de la tabla (thead) a verde (#28a745). */
+    color: #fff;                      /* Define el color del texto en el encabezado de la tabla como blanco. */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;        /* Establece un color de fondo gris claro (#f9f9f9) para las filas pares en el cuerpo de la tabla (tbody). */
+}
+
+img {
+    max-width: 100%;                  /* Define que las imágenes no excedan el ancho del contenedor. */
+    height: auto;                     /* Mantiene la proporción de altura automática en relación con el ancho para evitar distorsión. */
+    display: block;                   /* Asegura que la imagen se muestre como un bloque para que se pueda centrar. */
+    margin: 0 auto;                  /* Centra la imagen horizontalmente agregando márgenes automáticos a los lados. */
+}
+
+a {
+    color: #007bff; 
+}
+
+a:hover {
+    color: #0056b3; 
+}
+
+/* Diseño responsive */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;              /* Aumenta el tamaño de fuente a 18 píxeles para pantallas de al menos 768 píxeles de ancho. */
+    }
+
+    main {
+        display: flex;               /* Usa Flexbox para el layout del área principal en pantallas más anchas. */
+        flex-wrap: wrap;             /* Permite que los elementos secundarios se envuelvan si no caben en una sola línea. */
+    }
+
+    section {
+        flex: 1 1 calc(50% - 40px);  /* Define que cada sección ocupe el 50% del ancho del contenedor, menos 40 píxeles para márgenes. */
+        margin: 10px;                /* Agrega un margen de 10 píxeles alrededor de cada sección. */
+    }
+
+    table {
+        flex: 1 1 100%;              /* Permite que la tabla ocupe el 100% del ancho del contenedor en pantallas más anchas. */
+        margin: 20px 0;              /* Agrega un margen superior e inferior de 20 píxeles a la tabla. */
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        text-align: left;            /* Cambia la alineación del texto en el encabezado a la izquierda en pantallas de al menos 1200 píxeles de ancho. */
+        padding: 40px;              /* Aumenta el relleno en todos los lados del encabezado a 40 píxeles. */
+    }
+
+    main {
+        max-width: 1200px;           /* Define el ancho máximo del área principal en 1200 píxeles. */
+        margin: 0 auto;              /* Centra el área principal horizontalmente al establecer los márgenes izquierdo y derecho en automático. */
+    }
+
+    section {
+        flex: 1 1 calc(33.333% - 40px); /* Define que cada sección ocupe aproximadamente el 33.333% del ancho del contenedor, menos 40 píxeles para márgenes. */
+        margin: 10px;                /* Agrega un margen de 10 píxeles alrededor de cada sección. */
+    }
+
+    table {
+        margin-top: 40px;            /* Agrega un margen superior de 40 píxeles a la tabla en pantallas grandes. */
+    }
+}
